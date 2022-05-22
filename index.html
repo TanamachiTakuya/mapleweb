@@ -1,0 +1,163 @@
+  <!DOCTYPE html>
+  <html lang="ja">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta name="keyword" content="メイプルストーリー,maplestory,コアジェム,ツール" />
+    <meta name="description" content="メイプルストーリーの理想のスキルの組み合わせを見つけます。" />
+    <meta name="google-site-verification" content="vZm_VOhP1uJBQr-sku1oklL5SVCzVOKnahldYYnW71E" />
+    <link rel="stylesheet" href="style.css" />
+    <title>3重複ジェネレーター</title>
+  </head>
+
+  <body>
+    <header>
+      <div id="logo"><img src="images/logo.svg" alt="logo"></div>
+      <h1>3重複ジェネレーター</h1>
+    </header>
+
+    <div id="first_page">
+      <div>
+        <div class="buttonbox">
+          <div>
+            <button id="reset_btn">リセット</button>
+            <button id="next_btn">進む</button>
+          </div>
+        </div>
+        <div class="jobselect">
+          <p>職業</p>
+          <form action=""></form>
+          <select name="job" id="job">
+            <option value="未選択" selected>未選択</option>
+          </select>
+        </div>
+      </div>
+      <div class="skillselect" id="skill">
+        <p>重複を狙いたいスキルを選んでください(選択数は3の倍数)</p>
+      </div>
+    </div>
+
+    <div id="second_page">
+      <div class="buttonbox">
+        <div>
+          <button id="second_back_btn">戻る</button>
+          <button id="second_next_btn">進む</button>
+        </div>
+      </div>
+      <p>持っているスキルの組み合わせをプルダウンで選択してください</p>
+      <div id="coa"><img src="images/coa.svg" alt="coa"></div>
+      <div id="jobname"></div>
+      <div id="skillset"></div>
+      <div id="plus_btn"><img src="./images/plusbtn.svg" alt="plus_btn"></div>
+    </div>
+
+    <div id="third_page">
+      <div id="result">
+        <div class="result_box">
+          <p>もっているコア1</p>
+          <div class="koa_box">
+            <p>スキル名1</p>
+            <p>スキル名2</p>
+            <p>スキル名3</p>
+          </div>
+          <p>考えられるパターン1</p>
+          <div class="koa_box">
+            <p>スキル名1</p>
+            <p>スキル名2</p>
+            <p>スキル名3</p>
+          </div>
+          <div class="koa_box">
+            <p>スキル名1</p>
+            <p>スキル名2</p>
+            <p>スキル名3</p>
+          </div>
+          <div class="koa_box">
+            <p>スキル名1</p>
+            <p>スキル名2</p>
+            <p>スキル名3</p>
+          </div>
+          <p>考えられるパターン2</p>
+          <div class="koa_box">
+            <p>スキル名1</p>
+            <p>スキル名2</p>
+            <p>スキル名3</p>
+          </div>
+        </div>
+        <p>test5</p>
+        <p>test6</p>
+        <p>test7</p>
+      </div>
+    </div>
+
+    <footer>
+      <p class="copyright">&copy yukiichigo 2022.</p>
+    </footer>
+    <script src="./select.js"></script>
+  </body>
+
+  </html>
+
+
+
+
+  <!--   <!DOCTYPE html>
+  <html lang="ja">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta name="keyword" content="メイプルストーリー,maplestory,コアジェム,ツール" />
+    <meta name="description" content="メイプルストーリーの理想のスキルの組み合わせを見つけます。" />
+    <meta name="google-site-verification" content="vZm_VOhP1uJBQr-sku1oklL5SVCzVOKnahldYYnW71E" />
+    <link rel="stylesheet" href="style.css" />
+    <title>3重複ジェネレーター</title>
+  </head>
+
+  <body>
+    <header>
+      <div id="logo"><img src="images/logo.svg" alt="logo"></div>
+      <h1>3重複ジェネレーター</h1>
+    </header>
+    <div id="first_page">
+      <div>
+        <div class="buttonbox">
+          <div>
+            <button id="reset_btn">リセット</button>
+            <button id="next_btn">進む</button>
+          </div>
+        </div>
+        <div class="jobselect">
+          <p>職業</p>
+          <form action=""></form>
+          <select name="job" id="job">
+            <option value="未選択" selected>未選択</option>
+          </select>
+        </div>
+      </div>
+      <div class="skillselect" id="skill">
+        <p>重複を狙いたいスキルを選んでください(選択数は3の倍数)</p>
+      </div>
+    </div>
+
+    <div id="second_page">
+      <div class="buttonbox">
+        <div>
+          <button id="second_back_btn">戻る</button>
+          <button id="second_next_btn">進む</button>
+        </div>
+      </div>
+      <p>持っているスキルの組み合わせをプルダウンで選択してください</p>
+      <div id="coa"><img src="images/coa.svg" alt="coa"></div>
+      <div id="jobname"></div>
+      <div id="skillset"></div>
+      <div id="plus_btn"><img src="./images/plusbtn.svg" alt="plus_btn"></div>
+    </div>
+
+    <footer>
+      <p class="copyright">&copy yukiichigo 2022.</p>
+    </footer>
+    <script src="./select.js"></script>
+  </body>
+
+  </html> -->
